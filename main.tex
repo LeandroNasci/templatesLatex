@@ -36,7 +36,7 @@
 \usepackage{graphics}
 \usepackage{caption}
 \usepackage{array}
-\usepackage{abntex2cite}
+\usepackage[alf]{abntex2cite}
 
 \linespread{1.2}
 
@@ -60,9 +60,9 @@
 
 \section{Normas}
 
-$\bullet$ \hspace{0.1cm} \textbf{NBR 10068/87} - Folhas de desenho, layout e dimensões;\\
-$\bullet$ \hspace{0.1cm} \textbf{NBR 10582} - Conteúdo da folha para desenho técnico;\\
-$\bullet$ \hspace{0.1cm} \textbf{NBR 13142} - Dobramento da folha.\\
+$\bullet$ \hspace{0.1cm} \textbf{NBR 10068/87} - Folhas de desenho, layout e dimensões {\color{blue}\cite{NBR10068:1987}};\\
+$\bullet$ \hspace{0.1cm} \textbf{NBR 10582/1988} - Apresentação da folha para desenho técnico {\color{blue}\cite{NBR10582:1988}};\\
+$\bullet$ \hspace{0.1cm} \textbf{NBR 13142} - Dobramento da folha {\color{blue}\cite{NBR13142:1999}}.\\
 
 \begin{figure} [H] %[!h]
 \centering
@@ -221,13 +221,9 @@
 \label{fig_ListaMateriais}
 \end{figure}
 
-\section{Referências bibliográficas}
+\vspace{3.5cm}
 
-\begin{figure} [H] %[!h]
-\centering
-\includegraphics[scale=1.2]{Fig/Figura_ReferenciasBibliograficas.png} 
-\end{figure}
-
+\bibliography{references_correcao.bib}
 \end{document}
 
 
